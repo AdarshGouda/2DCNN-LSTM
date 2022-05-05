@@ -1,0 +1,33 @@
+Process:
+  image_shape: 160
+  grab_frame: 80
+
+Train:
+  batch_size: 2
+  learning_rate: 0.0001
+  beta_1: 0.9
+  beta_2: 0.999
+  epsilon: 1e-08
+
+  reg: 0.0001
+  epochs: 300
+  steps_per_epochs: 3
+  momentum: 0.9
+  debug: True
+  val_split: .2
+  seed: 256 #added
+
+Model:
+  type: VGG19
+  hidden_size: 160
+  rnn: 60
+  #model_path: 'D:/Study/OMSCS/Semester4/CS7643 Deep Learning/Project/Final_Project_rev2/saved_model/my_model.h5'
+  model_path: '/content/drive/MyDrive/Colab Notebooks/Project/Final_Project_rev3/saved_model/my_model.h5'
+
+Data:
+  train_directory: "./data/split_data/train/"
+  train_processed_directory: "./data/split_data/train_processed/"
+  test_source_directory: "./data/split_data/test/"
+  test_processed_directory: "./data/split_data/test_processed/"
+  classes: 10
+
