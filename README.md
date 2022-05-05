@@ -1,6 +1,6 @@
 # 2DCNN-LSTM
 
-##Libraries Used:
+## Libraries Used:
 1. TensorFlow
 2. OpenCv2
 3. sklearn
