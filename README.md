@@ -17,3 +17,5 @@
 4. Look for config_default.yaml file in ./config folder --> changes hyperparameters as needed
 5. Run train.py --> model will be saved in ./saved_model folder and the loss curves will be saved in ./report folder
 6. Run test.py --> accuracy will be printed to the terminal and the confusion matrix plot will be saved in ./report folder
+
+https://adarsh-gouda.medium.com/sign-language-gesture-recognition-from-video-sequences-using-time-distributed-2dcnn-lstm-641a8b192b9c
